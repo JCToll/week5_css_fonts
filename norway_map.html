@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Norwegian Heritage </title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Muli|Fjord+One|Asap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css"> 
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+  
+  <header> 
+    <h1>Norway - My First Heritage</h1>
+    <!-- add horizontal navigation bar  to link to the 4 main web pagess 
+                and, make current page "active" -->
+    <nav>
+        <ul class= "navbar">
+          <!-- add Font Awesome home icon to the Home menu  -->
+          <li class="navbar"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>  </li>   
+          <li class="navbar"><a class= "active" href="norway_map.html">Norwegian Heritage</a> </li>
+          <li class="navbar"><a href="brazil_map.html">Brazilian Heritage</a></li>
+          <li class="navbar"><a href="america_map.html">American Heritage</a></li>
+        </ul>
+    </nav>
+  </header>
+  
+    <!-- add vertical left bar to list different web pages 
+                and, make current page "active" -->
+    <aside>
+        <ul class= "leftbar">
+           <!-- add Font Awesome map-marker icon to the Map menu  -->
+          <li class="leftbar"><a class= "active" href="norway_map.html"><i class="fa fa-map-marker" aria-hidden="true"></i> Map</a>  </li>   
+          <li class="leftbar"><a href="norway_about.html">About Andøya</a> </li>
+          <li class="leftbar"><a href="norway_history.html">Personal History</a></li>
+          <li class="leftbar"><a href="norway_info.html">More Information</a></li>
+        </ul>
+  
+    </aside>
+  
+ <!-- start with main intro in the "sections"-->  
+  <section>
+        <h2>Map of Andøya, Norway</h2>
+        <p class="narrow">My heritage starts with my maternal grandparents, who were born and grew up on the island of Andøya, Norway.</p>
+
+     <!-- add figure and use figcaption to describe   width:640px; height:345px  -->
+        <figure>
+            <img src="images/map_norway.png" alt="Andøya Map" style="float:center; width:512px; height:276px">
+            <figcaption><a href="https://goo.gl/maps/SRm8RRJcuKv " target="_blank">Map of Andøya, Norway. </a></figcaption>
+        </figure>
+    
+	  <p class="center">Andøya is the northernmost island in the Vesterålen archipelago (69 deg N), situated about 300 kilometres (190 miles) north of the Arctic circle. Andøya, is the 10th largest island in Norway, and is located in the Nordland county. The island is sparsly populated with only ~ 5,000 residents. Andenes is the only town on the island with a population of 2,700. Andenes is one of the largest finsihing ports in Norway.  </p>
+  </section>
+    
+
+    
+<!-- add a common footer that is common to all pages; needs to go to the bottom -->
+  <div class="footer">
+    <details>
+      <summary>&copy; 2017 || Posted by: Joel Tollefson</summary>
+      <p>Posted by: Joel Tollefson</p>
+      <p>Contact information: <a href="mailto:Joel.Tollefson@gmail.com">
+          Joel.Tollefson@gmail.com</a>  </p>
+      <time datetime="2017-10-28">Revision date:2017-10-28</time> <!-- not sure how datetime works -->
+    </details>
+  </div>
+    
+</body>
+  
+</html>

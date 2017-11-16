@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Norwegian Heritage </title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Muli|Fjord+One|Asap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css"> 
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+  
+  <header> 
+    <h1>Norway - My First Heritage</h1>
+    <!-- add horizontal navigation bar  to link to the 4 main web pagess 
+                and, make current page "active" -->
+    <nav>
+        <ul class= "navbar">
+          <li class="navbar"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>  </li>   
+          <li class="navbar"><a class= "active" href="norway_map.html">Norwegian Heritage</a> </li>
+          <li class="navbar"><a href="brazil_map.html">Brazilian Heritage</a></li>
+          <li class="navbar"><a href="america_map.html">American Heritage</a></li>
+        </ul>
+    </nav>
+  </header>
+  
+    <!-- add vertical left bar to list different web pages 
+                and, make current page "active" -->
+    <aside>
+        <ul class= "leftbar">
+          <li class="leftbar"><a href="norway_map.html"><i class="fa fa-map-marker" aria-hidden="true"></i> Map</a>  </li>   
+          <li class="leftbar"><a href="norway_about.html">About Andøya</a> </li>
+          <li class="leftbar"><a class= "active" href="norway_history.html">Personal History</a></li>
+          <li class="leftbar"><a href="norway_info.html">More Information</a></li>
+        </ul>
+  
+    </aside>
+  
+ <!-- start with main intro in the "sections"-->  
+  <section>
+        <h2>My Personal History</h2>
+        <p class="narrow">My heritage starts with my maternal grandparents, who were born and grew up on opposite ends of the small island of Andøya, Norway. My grandpa Hjalmar said that as a young boy, he met my grandma Agnes only one time when their churches joined for the final Confirmation ceremony at the Dveberg Church - shown below. He vowed he would someday marry that girl... but then he didn't see her again.  </p>
+        <p class="narrow">Years later,in the early the 1920's, my grandparents both immigrated separately to the United States. Neither knew that the other had immigrated. One day, by sheer coincidence, they bumped into each other on a trolley car in the city of Tacoma. They were soon married and settled in Ballard, Seattle. The rest is history... </p>
+
+     <!-- add figure and use figcaption to describe   width:640px; height:345px  -->
+        <figure>
+            <img src="images/andoya_church_3.jpg" alt="Andøya Chruch" style="float:center; width:500px; height:250px">
+            <figcaption><a href="https://en.wikipedia.org/wiki/Dverberg_Church">Dverberg Church Andøya, Norway. </a></figcaption>
+        </figure>
+	  <p class="center">The Dverberg Church belongs to the Church of Norway (Lutheran denomination).  The church was first built in the early 1700's, and then after it was destroyed by lighting, it was rebuilt in 1843. This is an "octagonal  church", the architecture of which is unique to Norway. Beginining in the 1680s, this style replaced the <a href="https://en.wikipedia.org/wiki/Stave_church">stave church </a> style that had been prevalent in Norwary.   </p>
+      <p class="center">  Torstein Raaby, the famous artic explorer,  World War II resistance fighter, and Kon-Tiki expedition member, is buried in the church cemetery. </p> 
+  </section>
+    
+
+    
+<!-- add a common footer that is common to all pages; needs to go to the bottom -->
+  <div class="footer">
+    <details>
+      <summary>&copy; 2017 || Posted by: Joel Tollefson</summary>
+      <p>Posted by: Joel Tollefson</p>
+      <p>Contact information: <a href="mailto:Joel.Tollefson@gmail.com">
+          Joel.Tollefson@gmail.com</a>  </p>
+      <time datetime="2017-10-28">Revision date:2017-10-28</time> <!-- not sure how datetime works -->
+    </details>
+  </div>
+    
+</body>
+  
+</html>
